@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "PlatformIO: Build (relay_project)",
+			"type": "shell",
+			"command": "${userHome}/.platformio/penv/Scripts/pio.exe run -e relay_project",
+			"problemMatcher": [
+				"$platformio"
+			],
+			"group": "build"
+		}
+	]
+}
